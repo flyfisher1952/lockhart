@@ -1,0 +1,118 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+body {
+	background-color: #5c87b2;
+	background-image: url(../images/tetons-barn.jpg);
+	font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+/* these override the ones in bootstrap.*.css 
+-----------------------------------------------------------*/
+.navbar-default {
+	background-color: #eedfcc;
+	border-color: #ddcebb;
+}
+
+	.navbar-default .navbar-nav > li > a {
+		color: darkblue;
+	}
+
+	.navbar-default .navbar-brand {
+		color: darkblue;
+	}
+
+		.navbar-default .navbar-brand > a:hover {
+			color: darkblue;
+			background-color: #ba9;
+			font-weight: bold;
+		}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+		text-decoration: none;
+		background-color: #ba9;
+	}
+
+.navbar-nav > li > a {
+	padding: 8px;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1.5em;
+	color: #000;
+}
+
+h1 {
+	font-size: 2em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+/* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+.page {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear {
+	clear: both;
+}
+
+.error {
+	color: Red;
+}
+
+/*------------------------------------------------
+    mixins
+*/
+.main-div {
+	min-height: 800px;
+	background-color: #eedfcc;
+	padding: 12px;
+	margin: 0 16px;
+}
+
+.centered {
+	padding-left: 45%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.large {
+	font-size: large;
+}
+
+.table {
+	display: table;
+}
+
+.table-row {
+	display: table-row;
+}
+
+.table-cell {
+	display: table-cell;
+}
+
+.border-radius-4 {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
